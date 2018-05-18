@@ -19,10 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `audiowatermarkdemo`
+-- Cơ sở dữ liệu: `wav`
 --
-CREATE DATABASE IF NOT EXISTS `audiowatermarkdemo` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
-USE `audiowatermarkdemo`;
+CREATE DATABASE IF NOT EXISTS `wav` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `wav`;
 
 -- --------------------------------------------------------
 
@@ -49,7 +49,7 @@ INSERT INTO `multimedia` (`id`, `parentid`, `song`, `singer`, `url`, `type`, `ow
 ('1knl17clAh_kNEAo32RR1Jv9G4oUvgx2u', '1knl17clAh_kNEAo32RR1Jv9G4oUvgx2u', 'Vị Thần Gọi Gió', 'Mons ft. TMinx', 'https://drive.google.com/file/d/1knl17clAh_kNEAo32RR1Jv9G4oUvgx2u/view?usp=sharing', 'music', 'administrator'),
 ('1pkI2mjODbrIse8fISuaQYmnGza7OrwzN', '1pkI2mjODbrIse8fISuaQYmnGza7OrwzN', 'Cùng Anh', 'Ngọc Doli', 'https://drive.google.com/file/d/1pkI2mjODbrIse8fISuaQYmnGza7OrwzN/view?usp=sharing', 'music', 'administrator'),
 ('1zTtrb5Frx-6RihbSBzlIe0kBXQidd4yQ', '1zTtrb5Frx-6RihbSBzlIe0kBXQidd4yQ', 'Túy Âm', 'Masew ft. Nhật Nguyễn ft. Xesi', 'https://drive.google.com/file/d/1zTtrb5Frx-6RihbSBzlIe0kBXQidd4yQ/view?usp=sharing', 'music', 'administrator'),
-('logo', 'logo', NULL, NULL, 'http://localhost/audiowatermarkdemo/picture/logo.png', 'picture', 'administrator');
+('logo', 'logo', NULL, NULL, 'http://localhost/wav/picture/logo.png', 'picture', 'administrator');
 
 -- --------------------------------------------------------
 
@@ -110,7 +110,7 @@ CREATE TABLE `siteinfo` (
 --
 
 INSERT INTO `siteinfo` (`companyname`, `slogan`, `seokeywords`, `seodescription`, `facebook`, `logo`, `copyright`, `copyright_ln2`) VALUES
-('Audio Watermark Demo', 'Vo Xuan Khang _ N14DCAT083 _ PTITHCM', 'audio, watermark, demo', 'Audio Watermark Demo', 'https://www.facebook.com/fvoxuankhang', 'logo', '{companyname} © 2018', 'From Ho Chi Minh city with <span id=\"heart\">❤</span>');
+('Watermark Demo', 'Tran Khanh Vy _ N14DCAT109 _ PTITHCM', 'audio, watermark, demo', 'Audio Watermark Demo', 'https://www.facebook.com/', 'logo', '{companyname} © 2018', 'From Ho Chi Minh city with <span id=\"heart\">❤</span>');
 
 -- --------------------------------------------------------
 
